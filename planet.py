@@ -4,7 +4,7 @@ from Sun import Sun
 
 
 
-class Planets:
+class Planet:
     def __init__(self, name, color, radius, major_axis, minor_axis, period, Sun):
         self.name = name
         self.radius = radius
